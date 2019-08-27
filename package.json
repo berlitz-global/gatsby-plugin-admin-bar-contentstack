@@ -1,0 +1,12 @@
+{
+  "name": "gatsby-plugin-admin-bar-contentstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "https://github.com/jacobimpson",
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "^4.3.2"
+  }
+}
