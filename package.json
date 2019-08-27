@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-admin-bar-contentstack",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "gatsby-browser.js",
   "description": "",
   "homepage": "https://github.com/berlitz-global/gatsby-plugin-admin-bar-contentstack",
   "author": "Jacob Impson <jacob.impson@berlitz.com>",
