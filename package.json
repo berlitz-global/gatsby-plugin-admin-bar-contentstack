@@ -13,6 +13,6 @@
   ],
   "peerDependencies": {
     "styled-components": "^4.3.1"
-  }
-  "scripts": {},
+  },
+  "scripts": {}
 }
