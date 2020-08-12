@@ -7,9 +7,7 @@ exports.wrapPageElement = ({ element, props }, pluginOptions) => {
   const { uid, locale, contentType } = props.pageContext;
   const cookieValue = '; ' + document.cookie
   const cookieParts = cookieValue.split('; optimizely_signed_in=')
-    if (cookieParts.length == 2)
-      return cookieParts.pop().split(';').shift()
-  const displayBar = uid && locale && contentType && CONTENTSTACK_API_KEY && cookieParts;
+  const displayBar = uid && locale && contentType && CONTENTSTACK_API_KEY && cookieParts.length == 2;
   const editEntryUrl = `https://app.contentstack.com/#!/stack/${CONTENTSTACK_API_KEY}/content-type/${contentType}/${locale}/entry/${uid}/edit`;
 
   return (
