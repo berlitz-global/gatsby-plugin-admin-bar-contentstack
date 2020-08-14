@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-admin-bar-contentstack",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "main": "gatsby-browser.js",
   "description": "",
   "homepage": "https://github.com/berlitz-global/gatsby-plugin-admin-bar-contentstack",
