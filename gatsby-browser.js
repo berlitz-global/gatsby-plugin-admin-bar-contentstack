@@ -12,7 +12,7 @@ exports.wrapPageElement = ({ element, props }, pluginOptions) => {
   }
   const cookieProduction = getCookie('optly_berlitz_test')
   const cookieStaging = getCookie('optly_brrlitz_test')
-  const displayBar = uid && locale && contentType && CONTENTSTACK_API_KEY && (cookieProduction !== 'undefined' || cookieStaging !== 'undefined');
+  const displayBar = uid && locale && contentType && CONTENTSTACK_API_KEY && (cookieProduction || cookieStaging);
   const editEntryUrl = `https://app.contentstack.com/#!/stack/${CONTENTSTACK_API_KEY}/content-type/${contentType}/${locale}/entry/${uid}/edit`;
 
   return (
